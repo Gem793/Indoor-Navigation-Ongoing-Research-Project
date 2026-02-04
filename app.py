@@ -27,7 +27,7 @@ GEOJSON_PATHS = {
 floor_gdfs = {}
 for lvl, path in GEOJSON_PATHS.items():
     if not os.path.exists(path):
-        print(f"⚠️ GeoJSON missing: {path} (level {lvl}) - creating empty GeoDataFrame")
+        print(f"GeoJSON missing: {path} (level {lvl}) - creating empty GeoDataFrame")
         floor_gdfs[lvl] = gpd.GeoDataFrame()
         continue
     try:
