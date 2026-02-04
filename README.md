@@ -24,7 +24,7 @@ This project is an indoor navigation application built with Python (Flask) and a
     
 ## Usage
 1.  Run the application:
-    python app.py
+        python app.py
     
 2.  Access the web interface:
     Open your web browser and navigate to:
