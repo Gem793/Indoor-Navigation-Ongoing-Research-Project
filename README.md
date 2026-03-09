@@ -51,3 +51,17 @@ This project is an indoor navigation application built with Python (Flask) and a
 - JSON Body: {"start": "Room A", "end": "Room B"}
 - GET /get_rooms: Returns a list of available room types.
 - GET /debug_rooms: Returns debugging information about loaded rooms.
+
+## LICENSE
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0).
+
+This means:
+You are free to use, modify, and distribute this software.
+Any distributed modifications must also be released under the same license.
+The source code must remain open.
+See the LICENSE file for full license details.
+
+## Author
+- R. Akshya 
+- Samriddhi Shaw
+- Meghana Gopinath Tanuja
